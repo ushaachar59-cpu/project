@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        # The placeholder string below will be safely replaced by your Jenkins build number
         image: ushaachar/backendapp:BUILD_NUMBER_PLACEHOLDER
         ports:
         - containerPort: 80
@@ -26,4 +25,4 @@ spec:
             cpu: "250m"
           limits:
             memory: "128Mi"
-            cpu: "500m""
+            cpu: "500m"apiVersion: apps/v1"
